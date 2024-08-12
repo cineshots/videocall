@@ -37,7 +37,7 @@ const PeerPage = () => {
         let peer: Peer;
         if (typeof window !== 'undefined') {
           peer = new Peer(myUniqueId, {
-            host: 'https://api.loveultimate.in',
+            host: 'api.loveultimate.in',
             port: 9000,
             path: '/myapp',
           });
