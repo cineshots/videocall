@@ -40,6 +40,7 @@ const PeerPage = () => {
             host: 'api.loveultimate.in',
             port: 9000,
             path: '/myapp',
+            secure : true,
           });
 
           setPeerInstance(peer);
